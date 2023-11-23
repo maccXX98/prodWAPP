@@ -11,7 +11,11 @@ const products = {
 
 const urls = {
   zl02_pro: ["https://fb.me/255fhz14v", "https://fb.me/qwqwqw"],
-  lenovok3: ["https://fb.me/3kaSU9EUG", "https://fb.me/300fhz14v", "https://fb.me/sdsdsd"],
+  lenovok3: [
+    "https://fb.me/3kaSU9EUG",
+    "https://fb.me/300fhz14v",
+    "https://fb.me/sdsdsd",
+  ],
 };
 
 const cities = [
@@ -54,5 +58,5 @@ module.exports = {
   products,
   cities,
   cityList,
-  urls
+  urls,
 };

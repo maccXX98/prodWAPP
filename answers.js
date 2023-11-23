@@ -32,9 +32,9 @@ const productMessage = (phone, product) =>
   product.productNumber || product.product
     ? createMessage(phone, product.product, product.productNumber)
     : createTextMessage(
-      phone,
-      `Este es nuestro producto: ${product.product.toUpperCase()}`
-    );
+        phone,
+        `Este es nuestro producto: ${product.product.toUpperCase()}`
+      );
 
 const cityMessage = (phone, selectedCity) => {
   const cityTemplates = {

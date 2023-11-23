@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.get("/webhook", (req, res) => {
   req.query["hub.mode"] === "subscribe" &&
-    req.query["hub.verify_token"] === process.env.Token
+  req.query["hub.verify_token"] === process.env.Token
     ? res.status(200).send(req.query["hub.challenge"])
     : res.sendStatus(400);
 });
